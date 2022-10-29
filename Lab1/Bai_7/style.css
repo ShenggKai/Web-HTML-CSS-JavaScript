@@ -1,0 +1,79 @@
+#table{
+    border: 2px solid black;
+    border-collapse: separate;
+}
+
+table td{
+    border-collapse: separate;
+}
+
+button {
+    /* padding: 8px; */
+    /* background-color: rgb(192, 192, 192); */
+    border: none;
+    padding: 5px;
+    position: relative;
+    right: 11%;
+    text-align: center;
+
+    /* display: inline-block; */
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #999;
+}
+
+/* Styling the Body element i.e. Color,
+		Font, Alignment */
+body {
+    /* background-color: #05c46b; */
+    font-family: Verdana;
+    text-align: center;
+}
+
+/* Styling the Form (Color, Padding, Shadow) */
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling form-control Class */
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+/* Styling form-control Label */
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 140px;
+}
+
+/* Styling form-control input,
+		select, textarea */
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+/* Styling form-control Radio
+		button and Checkbox */
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+/* Styling Button */
+
+.your-class input{
+    /* float:right; */
+}

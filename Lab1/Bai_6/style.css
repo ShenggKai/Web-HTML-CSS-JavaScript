@@ -1,0 +1,150 @@
+h1, h2{
+    text-align: center;
+}
+
+h2{
+    color: red;
+}
+
+button {
+    /* padding: 8px; */
+    position: relative;
+    left: 30%;
+    /* background-color: rgb(221, 221, 221); */
+    background-color: skyblue;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 40px;
+    cursor: pointer;
+    border-radius: 6px;
+    outline: none;
+}
+
+#logo1{
+    font-family: Arial;
+    /* background-color: whi; */
+    border: 1px solid black;
+    position: relative;
+    left: 20%;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    background-color: rgba(0,0,0,0.8);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: rgba(8, 8, 8, 0.3) 4px 4px;
+}
+
+#logo2 {
+    font-family: Arial;
+    border: 1px solid black;
+    position: relative;
+    left: 38%;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    font-size: 35px;
+    display: block;
+    background-color: rgba(0,0,0,0.8);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: rgba(8, 8, 8, 0.3) 4px 4px;
+}
+
+#logo3 {
+    font-family: Arial;
+    border: 1px solid black;
+    position: relative;
+    left: 38%;
+    margin-top: 0px;
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+    font-size: 45px;
+    display: block;
+    background-color: rgba(0,0,0,0.8);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: rgba(8, 8, 8, 0.3) 4px 4px;
+}
+
+#table1 {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#table1 td {
+    border: 2px solid black;
+}
+
+#table1_right {
+    text-align: center; 
+    background-color: gainsboro;
+    width: 300px;
+}
+
+#table2 {
+    border: 1px solid black;
+    border-collapse: separate;
+    padding: 10px;
+    background-color: gray;
+}
+
+#table2 td {
+    border: 2px solid black;
+    /* background-color: white; */
+    padding-top: 15px;
+    padding-bottom: 125px;
+}
+
+#table2_right{
+    background-color: white;
+}
+
+#table2_left {
+    text-align: center; 
+    width: 200px;
+    height: 300px;
+    display: block;
+    background-color: rgb(192, 192, 192);
+}
+
+#table3_hd {
+    height: 55px;
+    background-color: rgb(238, 238, 238);
+    vertical-align: top;
+}
+
+#table4, #table4 td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#table4_left {
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    vertical-align: top;
+    width: 200px;
+}
+
+#table4_right {
+    background-color: white;
+}
+
+#table4_hd {
+    background-color: rgb(192, 192, 192);
+    height: 30px;
+    text-indent: 15px;
+}
+
+#table4_bot {
+    background-color: rgb(192, 192, 192);
+    height: inherit;
+    text-align: center;
+    font-size: 25px;
+}

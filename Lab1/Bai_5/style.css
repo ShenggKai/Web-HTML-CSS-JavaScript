@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 300px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+button {
+    /* padding: 8px; */
+    position: relative;
+    left: 35%;
+    background-color: skyblue;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 40px;
+    cursor: pointer;
+    border-radius: 6px;
+    outline: none;
+}
